@@ -132,7 +132,7 @@ def _extract_commands(content: str) -> AiCommands:
         if line.startswith("QUESTION: "):
             questions.append(line.removeprefix("QUESTION: "))
             remove_lines.append(line)
-        elif line.startswith("PULL TAROT CARDS"):
+        elif line.startswith("Toma Cartas del Tarot"):
             _, num_cards_str = line.split(":")
             num_cards += int(num_cards_str)
             remove_lines.append(line)
