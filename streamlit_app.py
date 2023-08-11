@@ -23,7 +23,7 @@ SESSION_DIR = os.environ["SESSION_DIR"]
 st.set_page_config(
     layout="wide",
     initial_sidebar_state="collapsed",
-    page_title="Aquelarre - Virtual Tarot Readings",
+    page_title="Merlina - Virtual Tarot Readings",
 )
 
 
