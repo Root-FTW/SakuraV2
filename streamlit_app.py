@@ -106,7 +106,7 @@ def initial_view():
 
     card_draw_type = st.selectbox(
         "How would you like to select cards?",
-        ["Draw cards virtually", "Draw cards from your own tarot deck"],
+        ["Draw cards virtually"],
     )
 
     def _handle_click():
